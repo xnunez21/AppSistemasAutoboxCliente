@@ -1,0 +1,17 @@
+crear certificado
+ubicarse dentro del proyecto
+debug.keystore: representa el nombre del proyecto junto con su extencion .keystore
+keytool -genkey -v -keystore autobox.keystore -alias debug -keyalg RSA -keysize 2048 -validity 10000
+luego te pedira colocar pass y confirmar pass
+te pedira primer y segundo nombre
+te pedira el nombre de unidad de la organizacion
+te pedira el nombre de la organizacion
+te pedira tu ciudad o localidad
+te pedira el nombre de su estado o provincia
+te pedira el código de país de dos letras para esta unidad
+te mostrara si los datos estan correcto: y
+
+para ver las credenciales
+keytool -list -v -keystore autobox.keystore
+clave para registrar la app con FCM
+SHA1: 7B:1F:76:3E:E8:2B:AE:BE:30:D8:04:1C:9D:AD:06:7E:1B:CB:5D:B8

@@ -1,0 +1,10 @@
+instalar java
+copiar la ruta
+ubicar el archivo de java: C:\Program Files\Java\jdk-19.0.2 
+en el buscador de window, buscar "variable de entorno"
+luego se abre una ventana llamada propiedades del sistema
+buscar el boton variable de entorno y hacer clic
+ubicar el recuadro variable del sistema
+en la columna variable buscar Path, hacer clic y despues editar
+luego le da clic en nuevo
+pegar la ruta y aceptar

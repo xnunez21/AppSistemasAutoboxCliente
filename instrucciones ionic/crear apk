@@ -1,0 +1,23 @@
+entrar en el proyecto
+verificar que el proyecto no tenga errores
+iniciar el proyecto
+ionic start
+
+revisar si es necesario iniciar android estudio como administrador
+para el caso de android
+npm install @capacitor/android
+npx cap add android
+npm run build
+npx cap sync
+npx cap open android
+luego que abra android estudio esperar que instale las dependencias
+buscar la opcion Build, luego Build blunde apk y build apk
+
+para el caso de IOS
+npm install @capacitor/ios
+npx cap add ios
+npm run build
+npx cap sync
+npx cap open ios
+Follow the Developer Workflow guide to get building:
+https://capacitorjs.com/docs/basics/workflow

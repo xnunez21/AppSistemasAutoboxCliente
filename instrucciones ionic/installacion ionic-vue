@@ -1,0 +1,28 @@
+instalar node
+https://nodejs.org/es/
+
+verificar la version de node
+node --version
+
+instalar de forma global ionic 
+npm install -g @ionic/cli
+
+crear nuevo proyecto
+ionic start
+Use the app creation wizard? (Y/n): n
+selecionar el framework: vue
+project name: demo
+starter template: 
+  tabs
+  slidemenu
+  blank
+  list
+
+crear cuenta gratis de ionic: n 
+ 
+para ejecutar el projecto en la web
+cd demo
+ionic serve
+
+para construir la web para produccion 
+run npm run build
